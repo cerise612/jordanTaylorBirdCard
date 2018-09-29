@@ -6,6 +6,7 @@ body {
     display: grid;
     grid-template-columns: 5% 25% 40% 25% 5%;
     grid-template-rows: 60% 40%;
+    justify-items: center;
 }
 
 #logoImage {
@@ -15,8 +16,9 @@ body {
     grid-row-start: 1;
     grid-row-end: 1;
     justify-self: center;
-    margin-top: 12vh;
-    margin-bottom: 15vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin-left: 100vw;
 }
 
 #qrcLink {
