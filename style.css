@@ -1,0 +1,70 @@
+body {
+    background-color: #f7f9fc;
+}
+
+#wrapper {
+    display: grid;
+    grid-template-columns: 5% 25% 40% 25% 5%;
+    grid-template-rows: 60% 40%;
+}
+
+#logoImage {
+    width: 50vw;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    justify-self: center;
+    margin-top: 12vh;
+    margin-bottom: 15vh;
+}
+
+#qrcLink {
+    height: 25vh;
+    width: 20vw;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+#socialLinks {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    display: flex;
+    flex-direction: row;
+    margin-top: 12vh;
+}
+
+#jtbSignature {
+    width: 25vw;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+#fbLink{
+height: 10vh;
+}
+#instaLink{
+    height: 10vh;
+    margin-left: .5vw;
+}
+#pinLink{
+    height: 10vh;
+    margin-left: .5vw;
+}
+#snapLink{
+    height: 10vh;
+    margin-left: .5vw;
+}
+#twitterLink{
+    height: 10vh;
+    margin-left: .5vw;
+}
+#youtubeLink{
+    height: 10vh;
+    margin-left: .5vw;
+}
